@@ -1,0 +1,39 @@
+.contactSection {
+    /* background-color: gray; */
+   background-color:#e1da1e;
+   width: 100%;
+   padding: 4rem;
+   background-image: url(../../public/pxfuel.jpg);
+}
+
+.contactSection h1 {
+    color: #054998;
+    margin-top: 0;
+    text-align: center;
+}
+
+.contactSection form {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contactSection form input, textarea, button {
+    width: 30rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: #054998 1px solid;
+    padding: .75rem;
+}
+
+.contactSection button {
+    width: 26rem;
+    padding: .75rem;
+    padding-bottom: 2rem;
+    background-color: #054998;
+    color: #e1da1e;
+    cursor: pointer;
+}

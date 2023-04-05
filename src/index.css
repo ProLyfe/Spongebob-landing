@@ -1,7 +1,9 @@
-@font-face {
-  font-family: 'bob';
-  src: url('bob.otf');
-}
+@import url('https://fonts.cdnfonts.com/css/spongebob-font-condensed');
+
+/* @font-face {
+  font-family: 'SpongeBob Font Condensed', sans-serif;
+} */
+
 
 a {
   font-weight: 500;
@@ -21,5 +23,15 @@ body {
 }
 
 body * {
-  font-family: 'bob';
+  font-family: 'SpongeBob Font Condensed';
+}
+
+.loadingScreen {
+    background-color: indigo;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-image: url(../public//minutes.jpeg);
+
 }

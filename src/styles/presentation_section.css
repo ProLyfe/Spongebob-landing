@@ -1,6 +1,6 @@
 .presentationSection {
     background-color: #054998;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
 }
 
@@ -9,8 +9,12 @@
 }
 
 .presentationSection .presentationContainer {
-    background-color: #054998;
-    height: 50vh;
+    /* background-color: #e1da1e; */
+    /* background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../public//bob-blue.jpeg'); */
+    height: 60vh;
     display: flex;
     color: #e1da1e;
     font-size: 1.25rem;
@@ -22,9 +26,9 @@
 
 .presentationDescription {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     /* padding: 1rem; */
 }
 
@@ -43,10 +47,13 @@
 .presentationContainerVariant {
     display: flex;
     /* background-color: green; */
-    background-color: #e1da1e;
-    height: 50vh;
-    color: #054998;
+    background-color: #054998;
+    height: 60vh;
+    color: #e1da1e;
     font-size: 1.25rem;
+    /* background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('../../public//bob-blue.jpeg'); */
 }
 
 .presentationContainerVariant p {
@@ -55,4 +62,19 @@
 
 .presentationSection .presentationContainerVariant .presentationImage, .presentationDescription {
     flex-basis: 50%;
+
+}
+
+.presentationDescription h1 {
+    font-size: 2rem;
+    text-align: left;
+    /* background-color: red; */
+    width: 90%;
+}
+
+.presentationDescription p {
+    font-size: 1rem;
+    text-align: left;
+    width: 90%;
+    line-height: 1.9rem;
 }
