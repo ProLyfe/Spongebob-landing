@@ -1,0 +1,58 @@
+.presentationSection {
+    background-color: #054998;
+    height: 100vh;
+    width: 100vw;
+}
+
+.presentationSection * {
+    margin-top: 0;
+}
+
+.presentationSection .presentationContainer {
+    background-color: #054998;
+    height: 50vh;
+    display: flex;
+    color: #e1da1e;
+    font-size: 1.25rem;
+}
+
+.presentationSection .presentationContainer .presentationImage, .presentationDescription {
+    flex-basis: 50%;
+}
+
+.presentationDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 1rem; */
+}
+
+.presentationImage {
+    position: relative;
+    background-color: #054998;
+}
+
+.presentationImage .imageBob {
+    position: absolute;
+    object-fit: cover;
+}
+
+/* Inversed */
+
+.presentationContainerVariant {
+    display: flex;
+    /* background-color: green; */
+    background-color: #e1da1e;
+    height: 50vh;
+    color: #054998;
+    font-size: 1.25rem;
+}
+
+.presentationContainerVariant p {
+    padding: 1rem;
+}
+
+.presentationSection .presentationContainerVariant .presentationImage, .presentationDescription {
+    flex-basis: 50%;
+}
