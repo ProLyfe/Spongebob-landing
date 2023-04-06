@@ -18,6 +18,9 @@ function App() {
     <div className="App">
      {!load ? <div className="loadingScreen"></div> : null}
      <HeaderSection/>
+     <div className="dateSection">
+       <h2>Sortie le 4 février 2005 sur PS2 & GameCube</h2>
+     </div>
      <PresentationSection />
      <ContactSection />
     </div>

@@ -31,6 +31,18 @@ body * {
     height: 100vh;
     width: 100%;
     position: fixed;
-    background-image: url(../public//minutes.jpeg);
+    background-image: url(minutes.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+
+.dateSection {
+  background-color:#e1da1e;
+  /* width: 100%; */
+  padding: 4rem;
+  background-image: url(pxfuel.jpg);
+  font-size: 1.5rem;
+  color: #054998;
+  text-align: center;
 }
