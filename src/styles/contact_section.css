@@ -3,7 +3,7 @@
    background-color:#e1da1e;
    /* width: 100%; */
    padding: 4rem;
-   background-image: url(pxfuel.jpg);
+   background-image: url('../../public/pxfuel.jpg');
    background-repeat: no-repeat;
    background-size: cover;
 }
